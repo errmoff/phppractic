@@ -1,0 +1,466 @@
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+	background:#BB8F5B;
+}
+
+
+.body {
+	margin-left:25%;
+	margin-right:25%;
+	background-color:#E3B47B;
+	border: 0.05vw solid black;
+	min-height:44.7vw
+}
+
+.editDelete{
+color:#1A1818;	
+}
+.nav li{
+	display: inline;
+    margin-left: 1%;
+	text-align:center;
+	font-size:1.6vw;
+
+}
+
+.navBuutons {
+	color:black;
+	border: 0.05vw solid black;
+	padding: 8px;
+	margin-left: 5px;
+	text-decoration:none;
+	text-transform: uppercase;
+}
+
+.navBuutons:hover{background-color:#BB8F5B}
+
+.nav{
+	text-align:center;
+	background-color:#E3B47B;
+	border: 0.05vw solid black;
+	padding-top:0.5%;
+	padding-bottom:0.5%;
+}
+
+.categoryHref {
+	color:black; 
+	text-decoration:none; 
+	font-size:1.7vw;
+	}
+
+.categoryHref:hover {text-decoration:underline}
+
+.courseDiv{
+	text-align:center;
+	font-size:1vw;
+	font-weight:bold;
+	background-color:#BB8F5B;
+	max-width:25%;
+	min-width:25%;
+	margin: 0 10% 10% 10%;
+	padding:2%;
+	line-height:1.5vw;
+	border: 0.05vw solid black;
+	color:#1A1818;
+}
+
+.categoryDiv {
+	text-align:center;
+	font-size:1.25vw;
+	font-weight:bold;
+	background-color:#BB8F5B;
+	max-width:75%;
+	margin: 0 10% 0 10%;
+	padding:2%;
+	border: 0.05vw solid black;
+}
+
+.courseDetailDiv{
+	text-align:left;
+	font-size:1.25vw;
+	font-weight:bold;
+	background-color:#BB8F5B;
+	max-width:75%;
+	margin: 1% 10% 5% 10%;
+	padding:5%;
+	border: 0.05vw solid black;
+	color:#1A1818;
+	
+}
+
+.politicsDiv {
+	text-align:left;
+	font-size:1.25vw;
+	font-weight:bold;
+	background-color:#C5AF62;
+	max-width:75%;
+	margin: 0% 10% 10% 10%;
+	padding:2%;
+	border: 0.05vw solid black;
+	color:#1A1818;}
+
+.inputLogReg:placeholder{color:white;
+}
+
+.inputLogReg {
+	background: #BB8F5B;
+	border: 0.05vw solid #000000;
+	box-shadow: inset 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.62);
+	color:white;
+	width:8vw;
+	padding:1%;
+	font-weight:bold;
+	margin-left:1%;
+	margin-right:10%;
+	margin-top:3%;
+	font-size:0.9vw;
+	float:right;
+}
+.inputComment{
+	background: #BB8F5B;
+	border: 0.05vw solid #000000;
+	box-shadow: inset 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.62);
+	color:white;
+	width:22.8vw;
+	height:10vw;
+	padding:1%;
+	font-weight:bold;
+	margin-left:1%;
+	margin-right:10%;
+	margin-top:3%;
+	font-size:0.9vw;
+	float:center;
+}
+
+.CourseUnitDiv{
+	text-decoration:none;
+	background: #E3B47B;
+	border: 0.05vw solid #000000;
+	box-shadow: inset 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.62);
+	color:black;
+	font-weight:bold;
+	font-size:1.2vw;
+	padding: 5px;
+	min-width: 100px;
+}
+.CourseUnitDiv:hover{
+	text-decoration:none;
+	background: #CBC1A4;
+	border: 0.05vw solid #000000;
+	box-shadow: inset 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.62);
+	color:black;
+	font-weight:bold;
+	font-size:1.2vw;
+	padding: 5px;
+	min-width: 100px;
+}
+.AdminControlButtons{
+	text-decoration:none;
+	background: #CBC1A4;
+	border: 0.05vw solid #000000;
+	box-shadow: inset 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.62);
+	color:black;
+	float:left;
+	font-weight:bold;
+	font-size:0.9vw;
+	padding: 6px;
+}
+.AdminControlButtons:hover{
+	text-decoration: none;
+	background: #BB8F5B;
+	border: 0.05vw solid #000000;
+	box-shadow: inset 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.62);
+	color:black;
+	font-weight:bold;
+	font-size:0.9vw;
+	float:left;
+	padding: 6px;
+}
+.ProfileSettingsButtons{
+	text-align:center;
+	font-size:2.2vw;
+	color:black;
+	font-weight:bold;
+	text-decoration:none;
+	background: #E3B47B;
+	border: 0.05vw solid #000000;
+	box-shadow: inset 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.62);
+	padding: 5px;
+	margin-left: 20%;
+	
+}
+.courseSettingsDiv{
+	margin-left: 5%;
+	margin-top: 5%;
+	padding-bottom: 5%;
+}
+.ProfileSettingsButtons:hover{
+	text-align:center;
+	font-size:2.3vw;
+	color:black;
+	font-weight:bold;
+	text-decoration:underline;
+	background: #E3B47B;
+	border: 0.05vw solid #000000;
+	box-shadow: inset 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.62);
+	padding: 6px;
+	margin-left: 20%;
+}
+.settingsForm{
+	text-align:right;
+	font-size:1.2vw;
+	font-weight:bold;
+	background-color:#E3B47B;
+	margin: 0 25% 0 25%;
+	padding:1%;
+	line-height:3vw;
+	border: 0.05vw solid black;
+	color:#1A1818;
+	text-align:left;
+	margin-top: 15%;
+}
+.AdminControlButtonsRight{
+	text-decoration:none;
+	background: #CBC1A4;
+	border: 0.05vw solid #000000;
+	box-shadow: inset 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.62);
+	color:black;
+	font-weight:bold;
+	font-size:1vw;
+	float:right;
+	padding: 6px;
+}
+.AdminControlButtonsRight:hover{
+	text-decoration: none;
+	background: #BB8F5B;
+	border: 0.05vw solid #000000;
+	box-shadow: inset 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.62);
+	color:black;
+	font-weight:bold;
+	font-size:1vw;
+	float:right;
+	padding: 6px;
+}
+.inputAdminMenu:hover{
+	text-decoration:none;
+	background: #CBC1A4;
+	border: 0.05vw solid #000000;
+	box-shadow: inset 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.62);
+	color:black;
+	padding:1%;
+	font-weight:bold;
+	margin-left:1%;
+	margin-right:10%;
+	margin-top:3%;
+	font-size:0.9vw;
+	float:right;
+}
+
+.inputAdminMenu {
+	background: #BB8F5B;
+	border: 0.05vw solid #000000;
+	box-shadow: inset 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.62);
+	color:black;
+	padding:1%;
+	font-weight:bold;
+	margin-left:1%;
+	margin-right:10%;
+	margin-top:3%;
+	font-size:0.9vw;
+	float:right;
+	text-decoration: none;
+}
+
+.form{
+	margin-left:10%;
+	display:inline;
+	}
+
+.correctLogin{
+	text-align:right; 
+	font-weight:bold; 
+	font-size:1vw; 
+	color:#881E1E;}
+
+
+.logRegButton:hover{
+	background: #CBC1A4;
+	border: 0.1vw solid #1A1818;
+	box-sizing: border-box;
+	box-shadow: -0.2vw 0.2vw 0.2vw rgba(0, 0, 0, 0.5);
+	color:black;
+	padding:2%;
+	font-size:1vw;
+	font-weight:bold;
+	cursor:pointer
+	}
+
+.logRegButton{
+	background: #BB8F5B;
+	border: 0.1vw solid #1A1818;
+	box-sizing: border-box;
+	box-shadow: -0.2vw 0.2vw 0.2vw rgba(0, 0, 0, 0.5);
+	color:black;
+	padding:2%;
+	font-size:1vw;
+	font-weight:bold;
+	}
+
+.backToLogin{
+	font-size:2vw;
+	color:black;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:none;
+	margin: 1% 0 0 1%;
+}
+
+.backToLogin:hover{color:#CBC1A4}
+
+
+
+.RegButton{
+	background: #BB8F5B;
+	border: 0.1vw solid #1A1818;
+	box-sizing: border-box;
+	box-shadow: -0.2vw 0.2vw 0.2vw rgba(0, 0, 0, 0.5);
+	color:black;
+	padding:2%;
+	font-size:1vw;
+	text-decoration: none;
+	font-weight:bold;	
+}
+.RegButton:hover{
+	background: #CBC1A4;
+	border: 0.1vw solid #1A1818;
+	box-sizing: border-box;
+	box-shadow: -0.2vw 0.2vw 0.2vw rgba(0, 0, 0, 0.5);
+	color:black;
+	padding:2%;
+	font-size:1vw;
+	font-weight:bold;
+	cursor:pointer
+	}
+.navYouLogAs{
+margin-left:2vw
+}
+
+.contactDiv{
+	text-align:right;
+	font-size:1.2vw;
+	font-weight:bold;
+	background-color:#E3B47B;
+	margin: 0 25% 0 25%;
+	padding:1%;
+	line-height:3vw;
+	border: 0.05vw solid black;
+	color:#1A1818;
+	text-align:left
+}
+
+.commentDiv{
+	text-decoration:none;
+	background: #E3B47B;
+	border: 0.05vw solid #000000;
+	box-shadow: inset 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.62);
+	color:black;
+	font-weight:bold;
+	font-size:1.2vw;
+	padding: 5px;
+	min-width: 100px;
+	margin: 15px;
+}
+
+.loginForm{
+	text-align:right;
+	font-size:1.2vw;
+	font-weight:bold;
+	background-color:#E3B47B;
+	margin: 0 25% 0 25%;
+	padding:1%;
+	line-height:3vw;
+	border: 0.05vw solid black;
+	color:#1A1818;
+	text-align:left}
+
+.navAuthBuuton{
+	border: 0.05vw solid black;
+	padding: 5px;
+	text-decoration:none;
+	color: black;
+}
+.navAuthBuuton:hover{color:#8a836e}
+
+.registerForm{
+	text-align:right;
+	font-size:1.2vw;
+	font-weight:bold;
+	background-color:#E3B47B;
+	margin: 5% 25% 5% 25%;
+	padding:1%;
+	line-height:3vw;
+	border: 0.05vw solid black;
+	color:#1A1818;
+	text-align:left
+	}
+
+.footer{
+	text-align: right;
+	background-color:#E3B47B;
+	border: 0.05vw solid black;
+	color:black;
+	font-size:1vw;
+}
+
+.categoryAdminMenu{
+	text-align:center;
+	font-size:1.25vw;
+	font-weight:bold;
+	background-color:#BB8F5B;
+	max-width:75%;
+	margin: 0 10% 0 10%;
+	padding:2%;
+	border: 0.05vw solid black;
+	
+}
+
+.bodyHeader {
+	text-align:center; 
+	font-weight:bold; 
+	font-size:1.1vw; 
+	color:#1A1818;
+	}
+
+.bodyHeaderMain{
+	text-align:center; 
+	font-weight:bold; 
+	font-size:1.7vw; 
+	color:#1A1818;
+}
+
+.href{
+	font-size:1vw;
+	color:#881E1E;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:none;
+	margin: 1% 0 0 1%;
+	margin-left:0%;
+}
+
+.href:hover{color:#1A1818;}
+
+.backButton {
+	float:left;
+	font-size:2vw;
+	color:#1A1818;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:none;
+	margin: 1% 0 0 1%;
+	}
+
+.backButton:hover{color:black;}
